@@ -9,10 +9,11 @@ body {
 /* Estiliza o cabeçalho */
 .header {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    background-color: #333; /* Cor de fundo do cabeçalho */
-    padding: 10px;
+    justify-content:space-around;
+    background-color: #dbc5c9; /* Cor de fundo do cabeçalho */
+    padding: 50px;
     position: relative;
 }
 
@@ -29,7 +30,7 @@ body {
     color: #fff;
     text-decoration: none;
     margin: 0 15px;
-    font-size: 16px;
+    font-size: 27px;
 }
 
 .menu:hover {
@@ -53,7 +54,7 @@ section {
 }
 
 h1, h2, h3, h4 {
-    margin: 10px 0;
+    margin: 10px 10px;
 }
 
 .catalogo-livros {
@@ -69,22 +70,21 @@ h1, h2, h3, h4 {
     padding: 10px 20px;
     text-decoration: none;
     color: #fff;
-    background-color: #007bff; /* Cor de fundo do botão */
+    background-color: #dbc5c9; /* Cor de fundo do botão */
     border-radius: 25px; /* Bordas arredondadas do botão */
     transition: background-color 0.3s;
 }
 
 .button-as-link a:hover {
-    background-color: #0056b3; /* Cor de fundo do botão quando o mouse passa por cima */
+    background-color: #d094a5; /* Cor de fundo do botão quando o mouse passa por cima */
 }
 
 /* Estiliza o rodapé */
 .footer {
-    background-color: #333;
+    background-color: #dbc5c9;
     color: #fff;
     text-align: center;
     padding: 10px;
     position: relative;
-    bottom: 0;
     width: 100%;
 }
