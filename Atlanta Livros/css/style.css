@@ -1,0 +1,90 @@
+/* Define o estilo geral do body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo geral */
+}
+
+/* Estiliza o cabeçalho */
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    background-color: #dbc5c9; /* Cor de fundo do cabeçalho */
+    padding: 50px;
+    position: relative;
+}
+
+.logo {
+    border-radius: 50%; /* Faz a imagem da logo ser redonda */
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 10px;
+    background-color: #fff; /* Cor de fundo da logo */
+}
+
+.menu {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 27px;
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+/* Estiliza a área principal */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 120px); /* Ajusta a altura mínima para centralizar verticalmente */
+    padding: 20px;
+}
+
+/* Estiliza as seções e conteúdo dentro de main */
+section {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    margin: 10px 10px;
+}
+
+.catalogo-livros {
+    margin-top: 0;
+}
+
+.titulo-livro {
+    font-weight: bold;
+}
+
+.button-as-link a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #dbc5c9; /* Cor de fundo do botão */
+    border-radius: 25px; /* Bordas arredondadas do botão */
+    transition: background-color 0.3s;
+}
+
+.button-as-link a:hover {
+    background-color: #d094a5; /* Cor de fundo do botão quando o mouse passa por cima */
+}
+
+/* Estiliza o rodapé */
+.footer {
+    background-color: #dbc5c9;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
